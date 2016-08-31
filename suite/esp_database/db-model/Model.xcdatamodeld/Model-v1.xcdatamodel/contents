@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="DEspAp" representedClassName="DEspAp" syncable="YES">
+        <attribute name="espApBssid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espApPwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espApSsid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DEspConfig" representedClassName="DEspConfig" syncable="YES">
+        <attribute name="espConfigLastApBssid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espConfigLastUserEmail" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DEspDevice" representedClassName="DEspDevice" syncable="YES">
+        <attribute name="espDeviceActivatedTimestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="espDeviceBssid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espDeviceId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="espDeviceIsOwner" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="espDeviceKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espDeviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espDeviceRomCur" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espDeviceRomLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espDeviceState" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="espDeviceType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="espPKUserId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DEspUser" representedClassName="DEspUser" syncable="YES">
+        <attribute name="espUserEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espUserId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="espUserKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="espUserName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DEspAp" positionX="-18" positionY="126" width="128" height="90"/>
+        <element name="DEspConfig" positionX="0" positionY="135" width="128" height="75"/>
+        <element name="DEspDevice" positionX="-36" positionY="45" width="128" height="210"/>
+        <element name="DEspUser" positionX="-54" positionY="-9" width="128" height="105"/>
+    </elements>
+</model>
