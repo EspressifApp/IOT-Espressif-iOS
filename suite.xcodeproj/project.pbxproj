@@ -11,8 +11,8 @@
 		070AED0E1CE99BB60038DF9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070AED0D1CE99BB60038DF9E /* AppDelegate.m */; };
 		070AED111CE99BB60038DF9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070AED101CE99BB60038DF9E /* ViewController.m */; };
 		070AED141CE99BB60038DF9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070AED121CE99BB60038DF9E /* Main.storyboard */; };
-		070AED161CE99BB60038DF9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070AED151CE99BB60038DF9E /* Assets.xcassets */; };
 		070AED191CE99BB60038DF9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070AED171CE99BB60038DF9E /* LaunchScreen.storyboard */; };
+		0713C6821D869F4A00E705D1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0713C6811D869F4A00E705D1 /* Info.plist */; };
 		0727272E1D62C134007DDA7B /* UITableViewCell+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727272A1D62C134007DDA7B /* UITableViewCell+JZExtension.m */; };
 		0727272F1D62C134007DDA7B /* UITableViewRowAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727272B1D62C134007DDA7B /* UITableViewRowAction.m */; };
 		072727301D62C134007DDA7B /* UITableViewRowAction+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727272D1D62C134007DDA7B /* UITableViewRowAction+JZExtension.m */; };
@@ -112,6 +112,8 @@
 		0775C4371D5DD179007E94C1 /* ESPCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775C4361D5DD179007E94C1 /* ESPCoreDataHelper.m */; };
 		0775C43A1D5DD203007E94C1 /* DEspConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775C4391D5DD203007E94C1 /* DEspConfigManager.m */; };
 		077839A31D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077839A21D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a */; };
+		077AEC2C1D869FC9004C8651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077AEC2B1D869FC9004C8651 /* Assets.xcassets */; };
+		077AEC2E1D86A826004C8651 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 077AEC2D1D86A826004C8651 /* Default-568h@2x.png */; };
 		07A717171D5FEB6D00B368CE /* DEspDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */; };
 		07BB8D901D5D68E500417D74 /* ESPDeviceLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D891D5D68E500417D74 /* ESPDeviceLightViewController.m */; };
 		07BB8D911D5D68E500417D74 /* MainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D8B1D5D68E500417D74 /* MainUIViewController.m */; };
@@ -170,8 +172,8 @@
 		070AED0F1CE99BB60038DF9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		070AED101CE99BB60038DF9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		070AED131CE99BB60038DF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		070AED151CE99BB60038DF9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		070AED181CE99BB60038DF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0713C6811D869F4A00E705D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0727272A1D62C134007DDA7B /* UITableViewCell+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+JZExtension.m"; path = "esp_core/ui/JZTableViewRowAction/UITableViewCell+JZExtension.m"; sourceTree = "<group>"; };
 		0727272B1D62C134007DDA7B /* UITableViewRowAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableViewRowAction.m; path = esp_core/ui/JZTableViewRowAction/UITableViewRowAction.m; sourceTree = "<group>"; };
 		0727272C1D62C134007DDA7B /* UITableViewRowAction+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewRowAction+JZExtension.h"; path = "esp_core/ui/JZTableViewRowAction/UITableViewRowAction+JZExtension.h"; sourceTree = "<group>"; };
@@ -369,7 +371,8 @@
 		0775C4381D5DD203007E94C1 /* DEspConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEspConfigManager.h; path = "esp_database/db-manager/DEspConfigManager.h"; sourceTree = "<group>"; };
 		0775C4391D5DD203007E94C1 /* DEspConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEspConfigManager.m; path = "esp_database/db-manager/DEspConfigManager.m"; sourceTree = "<group>"; };
 		077839A21D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEsptouch_v0.3.5.1.a; sourceTree = "<group>"; };
-		078BF9E51CEACC0000C55E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		077AEC2B1D869FC9004C8651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077AEC2D1D86A826004C8651 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		07A717151D5FEB6D00B368CE /* DEspDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEspDeviceManager.h; path = "esp_database/db-manager/DEspDeviceManager.h"; sourceTree = "<group>"; };
 		07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEspDeviceManager.m; path = "esp_database/db-manager/DEspDeviceManager.m"; sourceTree = "<group>"; };
 		07BB8D821D5D681D00417D74 /* ESPConstantsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPConstantsCommand.h; path = esp_constants/ESPConstantsCommand.h; sourceTree = "<group>"; };
@@ -506,6 +509,7 @@
 		070AED081CE99BB60038DF9E /* suite */ = {
 			isa = PBXGroup;
 			children = (
+				077AEC2D1D86A826004C8651 /* Default-568h@2x.png */,
 				079A479D1CF2AF390019CAC0 /* esp_constants */,
 				078BFA1F1CEB04D000C55E77 /* esp_ui */,
 				070AED261CE99E440038DF9E /* esp_type */,
@@ -522,10 +526,10 @@
 				070AED0D1CE99BB60038DF9E /* AppDelegate.m */,
 				070AED0F1CE99BB60038DF9E /* ViewController.h */,
 				070AED101CE99BB60038DF9E /* ViewController.m */,
+				077AEC2B1D869FC9004C8651 /* Assets.xcassets */,
 				070AED121CE99BB60038DF9E /* Main.storyboard */,
-				070AED151CE99BB60038DF9E /* Assets.xcassets */,
 				070AED171CE99BB60038DF9E /* LaunchScreen.storyboard */,
-				078BF9E31CEACBE200C55E77 /* Info.plist */,
+				0713C6811D869F4A00E705D1 /* Info.plist */,
 				070AED091CE99BB60038DF9E /* Supporting Files */,
 			);
 			path = suite;
@@ -1344,7 +1348,7 @@
 				TargetAttributes = {
 					070AED051CE99BB60038DF9E = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = QWY5DY832N;
+						DevelopmentTeam = QWXF6GB4AV;
 					};
 				};
 			};
@@ -1373,11 +1377,13 @@
 			files = (
 				0775C34C1D5DA4C0007E94C1 /* esp_checkbox_off.png in Resources */,
 				070AED191CE99BB60038DF9E /* LaunchScreen.storyboard in Resources */,
-				070AED161CE99BB60038DF9E /* Assets.xcassets in Resources */,
+				0713C6821D869F4A00E705D1 /* Info.plist in Resources */,
+				077AEC2E1D86A826004C8651 /* Default-568h@2x.png in Resources */,
 				0775C34D1D5DA4C0007E94C1 /* esp_checkbox_off@2x.png in Resources */,
 				0775C34E1D5DA4C0007E94C1 /* esp_checkbox_on.png in Resources */,
 				070AED141CE99BB60038DF9E /* Main.storyboard in Resources */,
 				0775C34F1D5DA4C0007E94C1 /* esp_checkbox_on@2x.png in Resources */,
+				077AEC2C1D869FC9004C8651 /* Assets.xcassets in Resources */,
 				0775C3691D5DA60D007E94C1 /* MJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1555,14 +1561,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		078BF9E31CEACBE200C55E77 /* Info.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				078BF9E51CEACC0000C55E77 /* Base */,
-			);
-			name = Info.plist;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1659,7 +1657,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.iot.app.suite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.app.suite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1678,7 +1676,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.iot.app.suite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.app.suite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
