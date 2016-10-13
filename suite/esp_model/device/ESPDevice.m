@@ -8,6 +8,7 @@
 
 #import "ESPDevice.h"
 #import "ESPDeviceLight.h"
+#import "ESPDevicePlug.h"
 #import "ESPBssidUtil.h"
 #import "ESPActionDeviceActivateLocal.h"
 #import "ESPActionDeviceActivateInternet.h"
@@ -52,7 +53,7 @@ static long long idCreator = -LONG_LONG_MAX / 2;
             device = [[ESPDevice alloc]init];
             break;
         case PLUG_ESP_DEVICETYPE:
-            abort();
+            device = [[ESPDevicePlug alloc]init];
             break;
         case PLUGS_ESP_DEVICETYPE:
             abort();
@@ -108,6 +109,7 @@ static long long idCreator = -LONG_LONG_MAX / 2;
         case NEW_ESP_DEVICETYPE:
             break;
         case PLUG_ESP_DEVICETYPE:
+            device = [[ESPDevicePlug alloc]init];
             break;
         case PLUGS_ESP_DEVICETYPE:
             break;
@@ -341,6 +343,7 @@ static long long idCreator = -LONG_LONG_MAX / 2;
         case NEW_ESP_DEVICETYPE:
             break;
         case PLUG_ESP_DEVICETYPE:
+            copy = [[ESPDevicePlug allocWithZone:zone]init];
             break;
         case PLUGS_ESP_DEVICETYPE:
             break;

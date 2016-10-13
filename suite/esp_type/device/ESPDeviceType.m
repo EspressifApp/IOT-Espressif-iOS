@@ -136,7 +136,7 @@
     } else if (deviceType.espTypeEnum==ROOT_ESP_DEVICETYPE) {
         return NO;
     } else if (deviceType.espTypeEnum==PLUG_ESP_DEVICETYPE) {
-        return NO;
+        return YES;
     } else if (deviceType.espTypeEnum==LIGHT_ESP_DEVICETYPE) {
         return YES;
     } else if (deviceType.espTypeEnum==HUMITURE_ESP_DEVICETYPE) {
