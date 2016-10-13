@@ -12,5 +12,6 @@
 #define AUTHORIZATION   @"Authorization"
 #define TOKEN           @"token"
 #define STATUS          @"status"
+#define RESPONSE        @"response"
 
 #endif /* ESPConstantsCommand_h */

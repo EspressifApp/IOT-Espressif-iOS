@@ -37,6 +37,5 @@
 #define PARENT_MDEV_MAC     @"parent_mdev_mac"
 #define METHOD_PUT          @"method=PUT"
 #define METHOD_DELETE       @"method=DELETE"
-#define RESPONSE            @"response"
 
 #endif /* ESPConstantsCommandInternet_h */
