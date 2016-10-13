@@ -1,17 +1,19 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "855AD63D556E786A472AAFD6E65DB31A17F12F2B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "858FAA73B3E7A56CA78F5634AC07BAD167FC7FAB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "2A8CC76D0984F5186F869B6CBF35034B58A5ACD9" : 0,
+    "858FAA73B3E7A56CA78F5634AC07BAD167FC7FAB" : 9223372036854775807,
     "855AD63D556E786A472AAFD6E65DB31A17F12F2B" : 0,
     "A687C96403AC59D8F80BA0C00569AF22872AFE76" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B072024F-1D23-46C6-96F4-BBD7CD4B447D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "2A8CC76D0984F5186F869B6CBF35034B58A5ACD9" : "MJRefresh\/",
-    "855AD63D556E786A472AAFD6E65DB31A17F12F2B" : "suite\/",
+    "858FAA73B3E7A56CA78F5634AC07BAD167FC7FAB" : "suite\/",
+    "855AD63D556E786A472AAFD6E65DB31A17F12F2B" : "",
     "A687C96403AC59D8F80BA0C00569AF22872AFE76" : "SSCheckBoxView\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "suite",
@@ -27,6 +29,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitshell.com\/afun\/IOT-Espressif-iOS-Suite.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "855AD63D556E786A472AAFD6E65DB31A17F12F2B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitshell.com\/afun\/IOT-Espressif-iOS-Suite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "858FAA73B3E7A56CA78F5634AC07BAD167FC7FAB"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ardalahmet\/SSCheckBoxView.git",

@@ -163,6 +163,7 @@
 		07BB8E1D1D5D730400417D74 /* ESPCommandLightPostStatusLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8E191D5D730400417D74 /* ESPCommandLightPostStatusLocal.m */; };
 		07BB8E221D5D732800417D74 /* ESPCommandUserLoginInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8E1F1D5D732800417D74 /* ESPCommandUserLoginInternet.m */; };
 		07BB8E231D5D732800417D74 /* ESPCommandUserRegisterInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8E211D5D732800417D74 /* ESPCommandUserRegisterInternet.m */; };
+		07C4F2F91DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C4F2F81DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.m */; };
 		07CD8F081D6553A60070FBB8 /* ESPConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD8F071D6553A60070FBB8 /* ESPConfig.m */; };
 		07FEF3A61D64044300819A87 /* ESPGlobalTaskHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF3A51D64044300819A87 /* ESPGlobalTaskHandler.m */; };
 /* End PBXBuildFile section */
@@ -483,6 +484,8 @@
 		07BB8E1F1D5D732800417D74 /* ESPCommandUserLoginInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandUserLoginInternet.m; path = esp_command/user/ESPCommandUserLoginInternet.m; sourceTree = "<group>"; };
 		07BB8E201D5D732800417D74 /* ESPCommandUserRegisterInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPCommandUserRegisterInternet.h; path = esp_command/user/ESPCommandUserRegisterInternet.h; sourceTree = "<group>"; };
 		07BB8E211D5D732800417D74 /* ESPCommandUserRegisterInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandUserRegisterInternet.m; path = esp_command/user/ESPCommandUserRegisterInternet.m; sourceTree = "<group>"; };
+		07C4F2F71DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPCommandPlugPostStatusLocal.h; path = esp_command/device/plug/ESPCommandPlugPostStatusLocal.h; sourceTree = "<group>"; };
+		07C4F2F81DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandPlugPostStatusLocal.m; path = esp_command/device/plug/ESPCommandPlugPostStatusLocal.m; sourceTree = "<group>"; };
 		07CD8F061D6553A60070FBB8 /* ESPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPConfig.h; path = esp_model/config/ESPConfig.h; sourceTree = "<group>"; };
 		07CD8F071D6553A60070FBB8 /* ESPConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPConfig.m; path = esp_model/config/ESPConfig.m; sourceTree = "<group>"; };
 		07FEF3A41D64044300819A87 /* ESPGlobalTaskHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPGlobalTaskHandler.h; path = esp_model/handler/handlers/ESPGlobalTaskHandler.h; sourceTree = "<group>"; };
@@ -912,6 +915,8 @@
 				077D677B1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.m */,
 				077D677E1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.h */,
 				077D677F1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.m */,
+				07C4F2F71DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.h */,
+				07C4F2F81DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.m */,
 			);
 			name = plug;
 			sourceTree = "<group>";
@@ -1454,6 +1459,7 @@
 				0775C35A1D5DA4ED007E94C1 /* AFXMenuItemCell.m in Sources */,
 				0727272E1D62C134007DDA7B /* UITableViewCell+JZExtension.m in Sources */,
 				07BB8DF71D5D709600417D74 /* ESPActionDeviceGetStatusLocal.m in Sources */,
+				07C4F2F91DAF87AF00E7EF13 /* ESPCommandPlugPostStatusLocal.m in Sources */,
 				0775C41B1D5DB383007E94C1 /* DEspConfig+CoreDataProperties.m in Sources */,
 				0775C3EF1D5DB027007E94C1 /* ESPEsptouchViewController.m in Sources */,
 				07BB8D901D5D68E500417D74 /* ESPDeviceLightViewController.m in Sources */,
