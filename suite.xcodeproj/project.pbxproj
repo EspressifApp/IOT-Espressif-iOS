@@ -114,6 +114,7 @@
 		077839A31D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077839A21D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a */; };
 		077D676F1DAF5E730073E533 /* ESPStatusPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D676E1DAF5E730073E533 /* ESPStatusPlug.m */; };
 		077D67751DAF61DF0073E533 /* ESPDevicePlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D67741DAF61DF0073E533 /* ESPDevicePlug.m */; };
+		077D67791DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D67781DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m */; };
 		07A717171D5FEB6D00B368CE /* DEspDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */; };
 		07BB8D901D5D68E500417D74 /* ESPDeviceLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D891D5D68E500417D74 /* ESPDeviceLightViewController.m */; };
 		07BB8D911D5D68E500417D74 /* MainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D8B1D5D68E500417D74 /* MainUIViewController.m */; };
@@ -375,6 +376,8 @@
 		077D676E1DAF5E730073E533 /* ESPStatusPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPStatusPlug.m; path = esp_type/device/status/ESPStatusPlug.m; sourceTree = "<group>"; };
 		077D67731DAF61DF0073E533 /* ESPDevicePlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPDevicePlug.h; path = esp_model/device/ESPDevicePlug.h; sourceTree = "<group>"; };
 		077D67741DAF61DF0073E533 /* ESPDevicePlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPDevicePlug.m; path = esp_model/device/ESPDevicePlug.m; sourceTree = "<group>"; };
+		077D67771DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPCommandPlugGetStatusInternet.h; path = esp_command/device/plug/ESPCommandPlugGetStatusInternet.h; sourceTree = "<group>"; };
+		077D67781DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandPlugGetStatusInternet.m; path = esp_command/device/plug/ESPCommandPlugGetStatusInternet.m; sourceTree = "<group>"; };
 		078BF9E51CEACC0000C55E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		07A717151D5FEB6D00B368CE /* DEspDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEspDeviceManager.h; path = "esp_database/db-manager/DEspDeviceManager.h"; sourceTree = "<group>"; };
 		07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEspDeviceManager.m; path = "esp_database/db-manager/DEspDeviceManager.m"; sourceTree = "<group>"; };
@@ -894,6 +897,15 @@
 			name = Auto;
 			sourceTree = "<group>";
 		};
+		077D67761DAF69E30073E533 /* plug */ = {
+			isa = PBXGroup;
+			children = (
+				077D67771DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.h */,
+				077D67781DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m */,
+			);
+			name = plug;
+			sourceTree = "<group>";
+		};
 		078BFA1F1CEB04D000C55E77 /* esp_ui */ = {
 			isa = PBXGroup;
 			children = (
@@ -1036,6 +1048,7 @@
 				07A7A7791CFE8737003315D7 /* common */,
 				07DEC63A1D2A4A4D00481BFC /* esptouch */,
 				07FF94EC1D07C36200D8F600 /* light */,
+				077D67761DAF69E30073E533 /* plug */,
 			);
 			name = device;
 			sourceTree = "<group>";
@@ -1535,6 +1548,7 @@
 				07BB8DC31D5D6DD900417D74 /* ESPGroup.m in Sources */,
 				07BB8DF51D5D709600417D74 /* ESPActionDeviceDiscoverInternetLocal.m in Sources */,
 				0775C3961D5DAB52007E94C1 /* MJRefreshComponent.m in Sources */,
+				077D67791DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m in Sources */,
 				0775C32B1D5DA413007E94C1 /* ESPInterruptException.m in Sources */,
 				0775C3451D5DA483007E94C1 /* ESPUICheckBox.m in Sources */,
 				07BB8E0E1D5D72A300417D74 /* ESPCommandDeviceDiscoverLocal.m in Sources */,
