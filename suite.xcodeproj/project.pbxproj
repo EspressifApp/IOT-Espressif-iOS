@@ -116,6 +116,7 @@
 		077D67751DAF61DF0073E533 /* ESPDevicePlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D67741DAF61DF0073E533 /* ESPDevicePlug.m */; };
 		077D67791DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D67781DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m */; };
 		077D677C1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D677B1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.m */; };
+		077D67801DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D677F1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.m */; };
 		07A717171D5FEB6D00B368CE /* DEspDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */; };
 		07BB8D901D5D68E500417D74 /* ESPDeviceLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D891D5D68E500417D74 /* ESPDeviceLightViewController.m */; };
 		07BB8D911D5D68E500417D74 /* MainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D8B1D5D68E500417D74 /* MainUIViewController.m */; };
@@ -381,6 +382,8 @@
 		077D67781DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandPlugGetStatusInternet.m; path = esp_command/device/plug/ESPCommandPlugGetStatusInternet.m; sourceTree = "<group>"; };
 		077D677A1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPCommandPlugGetStatusLocal.h; path = esp_command/device/plug/ESPCommandPlugGetStatusLocal.h; sourceTree = "<group>"; };
 		077D677B1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandPlugGetStatusLocal.m; path = esp_command/device/plug/ESPCommandPlugGetStatusLocal.m; sourceTree = "<group>"; };
+		077D677E1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPCommandPlugPostStatusInternet.h; path = esp_command/device/plug/ESPCommandPlugPostStatusInternet.h; sourceTree = "<group>"; };
+		077D677F1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPCommandPlugPostStatusInternet.m; path = esp_command/device/plug/ESPCommandPlugPostStatusInternet.m; sourceTree = "<group>"; };
 		078BF9E51CEACC0000C55E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		07A717151D5FEB6D00B368CE /* DEspDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEspDeviceManager.h; path = "esp_database/db-manager/DEspDeviceManager.h"; sourceTree = "<group>"; };
 		07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEspDeviceManager.m; path = "esp_database/db-manager/DEspDeviceManager.m"; sourceTree = "<group>"; };
@@ -907,6 +910,8 @@
 				077D67781DAF6A470073E533 /* ESPCommandPlugGetStatusInternet.m */,
 				077D677A1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.h */,
 				077D677B1DAF709A0073E533 /* ESPCommandPlugGetStatusLocal.m */,
+				077D677E1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.h */,
+				077D677F1DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.m */,
 			);
 			name = plug;
 			sourceTree = "<group>";
@@ -1489,6 +1494,7 @@
 				0775C3441D5DA483007E94C1 /* ESPUIAlertView.m in Sources */,
 				07BB8DB71D5D6C7100417D74 /* ESPActivateLocalTaskHandler.m in Sources */,
 				07BB8E1A1D5D730400417D74 /* ESPCommandLightGetStatusInternet.m in Sources */,
+				077D67801DAF77C30073E533 /* ESPCommandPlugPostStatusInternet.m in Sources */,
 				0775C3071D5DA1E2007E94C1 /* ESPBaseApiUtil.m in Sources */,
 				07BB8D911D5D68E500417D74 /* MainUIViewController.m in Sources */,
 				07BB8DC81D5D6EC200417D74 /* ESPUser.m in Sources */,
