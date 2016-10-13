@@ -11,6 +11,8 @@
 #import "ESPBaseApiUtil.h"
 #import "ESPVersionUtil.h"
 #import "ESPLightStatusUtil.h"
+#import "ESPConstantsCommandLight.h"
+#import "ESPConstantsCommandInternet.h"
 
 @implementation ESPCommandLightPostStatusLocal
 

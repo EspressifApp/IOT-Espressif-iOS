@@ -33,6 +33,6 @@
 #define MAC             @"mac"
 #define VOLTAGE_MV      @"voltagemv"
 #define STSATUS_OK      @"OK"
-#define RESPONSE        @"response"
+
 
 #endif /* ESPConstantsCommandLight_h */

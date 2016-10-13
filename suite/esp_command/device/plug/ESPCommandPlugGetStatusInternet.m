@@ -10,10 +10,7 @@
 #import "ESPConstantsCommand.h"
 #import "ESPConstantsCommandInternet.h"
 #import "ESPConstantsHttpStatus.h"
-#import "ESPConstantsCommandLight.h"
 #import "ESPBaseApiUtil.h"
-#import "ESPVersionUtil.h"
-#import "ESPLightStatusUtil.h"
 
 @implementation ESPCommandPlugGetStatusInternet
 
