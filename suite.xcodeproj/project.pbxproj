@@ -113,6 +113,7 @@
 		0775C43A1D5DD203007E94C1 /* DEspConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775C4391D5DD203007E94C1 /* DEspConfigManager.m */; };
 		077839A31D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077839A21D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a */; };
 		077D676F1DAF5E730073E533 /* ESPStatusPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D676E1DAF5E730073E533 /* ESPStatusPlug.m */; };
+		077D67751DAF61DF0073E533 /* ESPDevicePlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D67741DAF61DF0073E533 /* ESPDevicePlug.m */; };
 		07A717171D5FEB6D00B368CE /* DEspDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */; };
 		07BB8D901D5D68E500417D74 /* ESPDeviceLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D891D5D68E500417D74 /* ESPDeviceLightViewController.m */; };
 		07BB8D911D5D68E500417D74 /* MainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB8D8B1D5D68E500417D74 /* MainUIViewController.m */; };
@@ -372,6 +373,8 @@
 		077839A21D4B669A00A303E0 /* libEsptouch_v0.3.5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEsptouch_v0.3.5.1.a; sourceTree = "<group>"; };
 		077D676D1DAF5E730073E533 /* ESPStatusPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPStatusPlug.h; path = esp_type/device/status/ESPStatusPlug.h; sourceTree = "<group>"; };
 		077D676E1DAF5E730073E533 /* ESPStatusPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPStatusPlug.m; path = esp_type/device/status/ESPStatusPlug.m; sourceTree = "<group>"; };
+		077D67731DAF61DF0073E533 /* ESPDevicePlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPDevicePlug.h; path = esp_model/device/ESPDevicePlug.h; sourceTree = "<group>"; };
+		077D67741DAF61DF0073E533 /* ESPDevicePlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPDevicePlug.m; path = esp_model/device/ESPDevicePlug.m; sourceTree = "<group>"; };
 		078BF9E51CEACC0000C55E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		07A717151D5FEB6D00B368CE /* DEspDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEspDeviceManager.h; path = "esp_database/db-manager/DEspDeviceManager.h"; sourceTree = "<group>"; };
 		07A717161D5FEB6D00B368CE /* DEspDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEspDeviceManager.m; path = "esp_database/db-manager/DEspDeviceManager.m"; sourceTree = "<group>"; };
@@ -1174,6 +1177,8 @@
 				07BB8DBC1D5D6D5900417D74 /* ESPDevice.m */,
 				07BB8DBD1D5D6D5900417D74 /* ESPDeviceLight.h */,
 				07BB8DBE1D5D6D5900417D74 /* ESPDeviceLight.m */,
+				077D67731DAF61DF0073E533 /* ESPDevicePlug.h */,
+				077D67741DAF61DF0073E533 /* ESPDevicePlug.m */,
 			);
 			name = device;
 			sourceTree = "<group>";
@@ -1486,6 +1491,7 @@
 				0727273F1D631347007DDA7B /* ESPActionDeviceDelete.m in Sources */,
 				0775C3CE1D5DAEA6007E94C1 /* ESPSocketUtil.m in Sources */,
 				0775C3C51D5DAEA6007E94C1 /* ESPMeshRequest.m in Sources */,
+				077D67751DAF61DF0073E533 /* ESPDevicePlug.m in Sources */,
 				0775C3C81D5DAEA6007E94C1 /* ESPMeshSocketManager.m in Sources */,
 				0775C3861D5DA918007E94C1 /* MJRefreshGifHeader.m in Sources */,
 				070AED0E1CE99BB60038DF9E /* AppDelegate.m in Sources */,
