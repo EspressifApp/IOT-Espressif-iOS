@@ -12,6 +12,7 @@
 #import "ESPConstantsNotification.h"
 #import "ESPVersionMacro.h"
 #import "ESPDeviceLightViewController.h"
+#import "ESPDevicePlugViewController.h"
 #import "ESPEsptouchViewController.h"
 #import "UITableViewRowAction+JZExtension.h"
 #import "ESPUIAlertView.h"
@@ -383,6 +384,8 @@
         return;
     }
     ESPDeviceLightViewController *lightViewController;
+    ESPDevicePlugViewController *plugViewController;
+    
     switch (device.espDeviceType.espTypeEnum) {
         case FLAMMABLE_ESP_DEVICETYPE:
             break;
@@ -396,6 +399,9 @@
         case NEW_ESP_DEVICETYPE:
             break;
         case PLUG_ESP_DEVICETYPE:
+            plugViewController = [[ESPDevicePlugViewController alloc]init];
+            plugViewController.devicePlug = (ESPDevicePlug *)device;
+            [self presentViewController:plugViewController animated:YES completion:nil];
             break;
         case PLUGS_ESP_DEVICETYPE:
             break;

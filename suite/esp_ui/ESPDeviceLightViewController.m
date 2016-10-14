@@ -415,7 +415,7 @@
     return statusUi;
 }
 
-- (void) startAivAnimating
+- (void)startAivAnimating
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         self.view.userInteractionEnabled = NO;
@@ -423,7 +423,7 @@
     });
 }
 
-- (void) stopAivAnimating
+- (void)stopAivAnimating
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         self.view.userInteractionEnabled = YES;

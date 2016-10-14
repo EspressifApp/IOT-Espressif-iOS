@@ -20,6 +20,8 @@
 		072727391D62E871007DDA7B /* ESPCommandDeviceDeleteInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 072727381D62E871007DDA7B /* ESPCommandDeviceDeleteInternet.m */; };
 		0727273C1D62EC74007DDA7B /* ESPActionDeviceRename.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727273B1D62EC74007DDA7B /* ESPActionDeviceRename.m */; };
 		0727273F1D631347007DDA7B /* ESPActionDeviceDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727273E1D631347007DDA7B /* ESPActionDeviceDelete.m */; };
+		07385F721DB070F8002C3F57 /* ESPDevicePlugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07385F711DB070F8002C3F57 /* ESPDevicePlugViewController.m */; };
+		07385F751DB07BD8002C3F57 /* ESPDeviceBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07385F741DB07BD8002C3F57 /* ESPDeviceBaseViewController.m */; };
 		0775C3071D5DA1E2007E94C1 /* ESPBaseApiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775C3061D5DA1E2007E94C1 /* ESPBaseApiUtil.m */; };
 		0775C3121D5DA27E007E94C1 /* ESPBssidUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775C3091D5DA27E007E94C1 /* ESPBssidUtil.m */; };
 		0775C3131D5DA27E007E94C1 /* ESPLightStatusUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775C30B1D5DA27E007E94C1 /* ESPLightStatusUtil.m */; };
@@ -190,6 +192,10 @@
 		0727273B1D62EC74007DDA7B /* ESPActionDeviceRename.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPActionDeviceRename.m; path = esp_action/device/common/ESPActionDeviceRename.m; sourceTree = "<group>"; };
 		0727273D1D631347007DDA7B /* ESPActionDeviceDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPActionDeviceDelete.h; path = esp_action/device/common/ESPActionDeviceDelete.h; sourceTree = "<group>"; };
 		0727273E1D631347007DDA7B /* ESPActionDeviceDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPActionDeviceDelete.m; path = esp_action/device/common/ESPActionDeviceDelete.m; sourceTree = "<group>"; };
+		07385F701DB070F8002C3F57 /* ESPDevicePlugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPDevicePlugViewController.h; path = esp_ui/ESPDevicePlugViewController.h; sourceTree = "<group>"; };
+		07385F711DB070F8002C3F57 /* ESPDevicePlugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPDevicePlugViewController.m; path = esp_ui/ESPDevicePlugViewController.m; sourceTree = "<group>"; };
+		07385F731DB07BD8002C3F57 /* ESPDeviceBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPDeviceBaseViewController.h; path = esp_ui/ESPDeviceBaseViewController.h; sourceTree = "<group>"; };
+		07385F741DB07BD8002C3F57 /* ESPDeviceBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPDeviceBaseViewController.m; path = esp_ui/ESPDeviceBaseViewController.m; sourceTree = "<group>"; };
 		0775C3051D5DA1E2007E94C1 /* ESPBaseApiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPBaseApiUtil.h; path = esp_base_api/ESPBaseApiUtil.h; sourceTree = "<group>"; };
 		0775C3061D5DA1E2007E94C1 /* ESPBaseApiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPBaseApiUtil.m; path = esp_base_api/ESPBaseApiUtil.m; sourceTree = "<group>"; };
 		0775C3081D5DA27E007E94C1 /* ESPBssidUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPBssidUtil.h; path = esp_util/ESPBssidUtil.h; sourceTree = "<group>"; };
@@ -924,8 +930,12 @@
 		078BFA1F1CEB04D000C55E77 /* esp_ui */ = {
 			isa = PBXGroup;
 			children = (
+				07385F731DB07BD8002C3F57 /* ESPDeviceBaseViewController.h */,
+				07385F741DB07BD8002C3F57 /* ESPDeviceBaseViewController.m */,
 				07BB8D881D5D68E500417D74 /* ESPDeviceLightViewController.h */,
 				07BB8D891D5D68E500417D74 /* ESPDeviceLightViewController.m */,
+				07385F701DB070F8002C3F57 /* ESPDevicePlugViewController.h */,
+				07385F711DB070F8002C3F57 /* ESPDevicePlugViewController.m */,
 				07BB8D8A1D5D68E500417D74 /* MainUIViewController.h */,
 				07BB8D8B1D5D68E500417D74 /* MainUIViewController.m */,
 				07BB8D8C1D5D68E500417D74 /* RegisterViewController.h */,
@@ -1474,6 +1484,7 @@
 				0775C3941D5DAB52007E94C1 /* MJRefreshAutoFooter.m in Sources */,
 				0775C41C1D5DB383007E94C1 /* DEspDevice.m in Sources */,
 				0775C3581D5DA4ED007E94C1 /* AFXMenu.m in Sources */,
+				07385F721DB070F8002C3F57 /* ESPDevicePlugViewController.m in Sources */,
 				07BB8DCF1D5D6F9F00417D74 /* ESPActionDeviceUpgradeLocal.m in Sources */,
 				0775C3C41D5DAEA6007E94C1 /* ESPMeshPackageUtil.m in Sources */,
 				0775C3EC1D5DAF8C007E94C1 /* ESPUDPSocketServer2.m in Sources */,
@@ -1532,6 +1543,7 @@
 				0775C4071D5DB347007E94C1 /* DEspUserManager.m in Sources */,
 				072727301D62C134007DDA7B /* UITableViewRowAction+JZExtension.m in Sources */,
 				0775C3FE1D5DB2AF007E94C1 /* DaoEspAp.m in Sources */,
+				07385F751DB07BD8002C3F57 /* ESPDeviceBaseViewController.m in Sources */,
 				07BB8DC01D5D6D5900417D74 /* ESPDeviceLight.m in Sources */,
 				07BB8D961D5D699000417D74 /* ESPDeviceState.m in Sources */,
 				0775C32C1D5DA413007E94C1 /* ESPSocketIOException.m in Sources */,

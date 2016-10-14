@@ -8,7 +8,9 @@
 
 #import "ESPActionDevicePostStatusLocal.h"
 #import "ESPCommandLightPostStatusLocal.h"
+#import "ESPCommandPlugPostStatusLocal.h"
 #import "ESPDeviceLight.h"
+#import "ESPDevicePlug.h"
 
 @implementation ESPActionDevicePostStatusLocal
 
@@ -32,7 +34,7 @@
         case NEW_ESP_DEVICETYPE:
             break;
         case PLUG_ESP_DEVICETYPE:
-            break;
+            return [self executePostPlugStatusLocalDevicePlug:(ESPDevicePlug *)device Status:(ESPStatusPlug *)status];
         case PLUGS_ESP_DEVICETYPE:
             break;
         case REMOTE_ESP_DEVICETYPE:
@@ -45,6 +47,17 @@
             break;
     }
     abort();
+}
+
+-(BOOL) executePostPlugStatusLocalDevicePlug:(ESPDevicePlug *)plug Status:(ESPStatusPlug *)status
+{
+    ESPCommandPlugPostStatusLocal *plugCommand = [[ESPCommandPlugPostStatusLocal alloc]init];
+    BOOL result = [plugCommand doCommandLightPostStatusLocal:plug StatusPlug:status];
+    if (result) {
+        ESPStatusPlug *plugStatus = plug.espStatusPlug;
+        plugStatus.espIsOn = status.espIsOn;
+    }
+    return result;
 }
 
 -(BOOL) executePostLightStatusLocalDeviceLight:(ESPDeviceLight *)light Status:(ESPStatusLight *)status

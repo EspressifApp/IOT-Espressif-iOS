@@ -9,7 +9,9 @@
 #import "ESPActionDevicePostStatusInternet.h"
 #import "ESPDeviceType.h"
 #import "ESPDeviceLight.h"
+#import "ESPDevicePlug.h"
 #import "ESPCommandLightPostStatusInternet.h"
+#import "ESPCommandPlugPostStatusInternet.h"
 
 @implementation ESPActionDevicePostStatusInternet
 
@@ -33,7 +35,7 @@
         case NEW_ESP_DEVICETYPE:
             break;
         case PLUG_ESP_DEVICETYPE:
-            break;
+            return [self executePostPlugStatusInternetDevicePlug:(ESPDevicePlug *)device Status:(ESPStatusPlug *)status];
         case PLUGS_ESP_DEVICETYPE:
             break;
         case REMOTE_ESP_DEVICETYPE:
@@ -46,6 +48,17 @@
             break;
     }
     abort();
+}
+
+-(BOOL) executePostPlugStatusInternetDevicePlug:(ESPDevicePlug *)plug Status:(ESPStatusPlug *)status
+{
+    ESPCommandPlugPostStatusInternet *plugCommand = [[ESPCommandPlugPostStatusInternet alloc]init];
+    BOOL result = [plugCommand doCommandPlugPostStatusInternet:plug StatusPlug:status];
+    if (result) {
+        ESPStatusPlug *plugStatus = plug.espStatusPlug;
+        plugStatus.espIsOn = status.espIsOn;
+    }
+    return result;
 }
 
 -(BOOL) executePostLightStatusInternetDeviceLight:(ESPDeviceLight *)light Status:(ESPStatusLight *)status
