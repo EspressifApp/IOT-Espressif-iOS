@@ -9,6 +9,6 @@
 #ifndef ESPConstantsCommandPlug_h
 #define ESPConstantsCommandPlug_h
 
-#define KEY_RESPONSE    @"response"
+#define KEY_RESPONSE    @"Response"
 
 #endif /* ESPConstantsCommandPlug_h */
