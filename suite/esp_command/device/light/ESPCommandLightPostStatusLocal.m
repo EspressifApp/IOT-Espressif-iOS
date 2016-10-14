@@ -80,13 +80,13 @@
         statusLight = [ESPLightStatusUtil ui2device:statusLight];
         NSMutableDictionary *requestJson = [[NSMutableDictionary alloc]init];
         NSMutableDictionary *rgbJson = [[NSMutableDictionary alloc]init];
-        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espRed] forKey:RED];
-        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espGreen] forKey:GREEN];
-        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espBlue] forKey:BLUE];
-        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espCwhite] forKey:CWHITE];
-        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espWwhite] forKey:WWHITE];
-        [requestJson setValue:[NSNumber numberWithInt:statusLight.espPeriod] forKey:PERIOD];
-        [requestJson setValue:rgbJson forKey:RGB];
+        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espRed] forKey:KEY_RED];
+        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espGreen] forKey:KEY_GREEN];
+        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espBlue] forKey:KEY_BLUE];
+        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espCwhite] forKey:KEY_CWHITE];
+        [rgbJson setValue:[NSNumber numberWithInt:statusLight.espWwhite] forKey:KEY_WWHITE];
+        [requestJson setValue:[NSNumber numberWithInt:statusLight.espPeriod] forKey:KEY_PERIOD];
+        [requestJson setValue:rgbJson forKey:KEY_RGB];
         if (isResponseRequired) {
             [requestJson setValue:[NSNumber numberWithInt:1] forKey:RESPONSE];
         } else {

@@ -196,6 +196,7 @@
 		07385F711DB070F8002C3F57 /* ESPDevicePlugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPDevicePlugViewController.m; path = esp_ui/ESPDevicePlugViewController.m; sourceTree = "<group>"; };
 		07385F731DB07BD8002C3F57 /* ESPDeviceBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPDeviceBaseViewController.h; path = esp_ui/ESPDeviceBaseViewController.h; sourceTree = "<group>"; };
 		07385F741DB07BD8002C3F57 /* ESPDeviceBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPDeviceBaseViewController.m; path = esp_ui/ESPDeviceBaseViewController.m; sourceTree = "<group>"; };
+		07385F761DB0C26A002C3F57 /* ESPConstantsCommandPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ESPConstantsCommandPlug.h; path = esp_constants/ESPConstantsCommandPlug.h; sourceTree = "<group>"; };
 		0775C3051D5DA1E2007E94C1 /* ESPBaseApiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPBaseApiUtil.h; path = esp_base_api/ESPBaseApiUtil.h; sourceTree = "<group>"; };
 		0775C3061D5DA1E2007E94C1 /* ESPBaseApiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESPBaseApiUtil.m; path = esp_base_api/ESPBaseApiUtil.m; sourceTree = "<group>"; };
 		0775C3081D5DA27E007E94C1 /* ESPBssidUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPBssidUtil.h; path = esp_util/ESPBssidUtil.h; sourceTree = "<group>"; };
@@ -1036,6 +1037,7 @@
 				07BB8D821D5D681D00417D74 /* ESPConstantsCommand.h */,
 				07BB8D831D5D681D00417D74 /* ESPConstantsCommandInternet.h */,
 				07BB8D841D5D681D00417D74 /* ESPConstantsCommandLight.h */,
+				07385F761DB0C26A002C3F57 /* ESPConstantsCommandPlug.h */,
 				07BB8D851D5D681D00417D74 /* ESPConstantsCommandUser.h */,
 				07BB8D861D5D681D00417D74 /* ESPConstantsHttpStatus.h */,
 				07BB8D871D5D681D00417D74 /* ESPConstantsNotification.h */,

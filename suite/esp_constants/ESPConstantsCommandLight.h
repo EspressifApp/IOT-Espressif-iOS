@@ -19,20 +19,8 @@
 #define KEY_BLUE        @"blue"
 #define KEY_WHITE       @"white"
 #define KEY_COLOR       @"color"
-
-#define PERIOD          @"period"
-#define RGB             @"rgb"
-#define RED             @"red"
-#define GREEN           @"green"
-#define BLUE            @"blue"
-#define CWHITE          @"cwhite"
-#define WWHITE          @"wwhite"
-
-
-#define SWITCHES        @"switches"
-#define MAC             @"mac"
-#define VOLTAGE_MV      @"voltagemv"
-#define STSATUS_OK      @"OK"
-
+#define KEY_RGB         @"rgb"
+#define KEY_CWHITE      @"cwhite"
+#define KEY_WWHITE      @"wwhite"
 
 #endif /* ESPConstantsCommandLight_h */

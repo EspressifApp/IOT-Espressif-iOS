@@ -43,13 +43,13 @@
         }
         // old protocol
         else {
-            int period = [[jsonResponse objectForKey:PERIOD]intValue];
-            NSDictionary *rgbJson = [jsonResponse objectForKey:RGB];
-            int red = [[rgbJson objectForKey:RED]intValue];
-            int green = [[rgbJson objectForKey:GREEN]intValue];
-            int blue = [[rgbJson objectForKey:BLUE]intValue];
-            int cwhite = [[rgbJson objectForKey:CWHITE]intValue];
-            int wwhite = [[rgbJson objectForKey:WWHITE]intValue];
+            int period = [[jsonResponse objectForKey:KEY_PERIOD]intValue];
+            NSDictionary *rgbJson = [jsonResponse objectForKey:KEY_RGB];
+            int red = [[rgbJson objectForKey:KEY_RED]intValue];
+            int green = [[rgbJson objectForKey:KEY_GREEN]intValue];
+            int blue = [[rgbJson objectForKey:KEY_BLUE]intValue];
+            int cwhite = [[rgbJson objectForKey:KEY_CWHITE]intValue];
+            int wwhite = [[rgbJson objectForKey:KEY_WWHITE]intValue];
             ESPStatusLight *status = [[ESPStatusLight alloc]init];
             status.espPeriod = period;
             status.espRed = red;

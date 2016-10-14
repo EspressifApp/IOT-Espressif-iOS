@@ -8,11 +8,7 @@
 
 #import "ESPCommandPlugPostStatusLocal.h"
 #import "ESPBaseApiUtil.h"
-#import "ESPVersionUtil.h"
-#import "ESPLightStatusUtil.h"
 #import "ESPConstantsCommand.h"
-#import "ESPConstantsCommandLight.h"
-#import "ESPConstantsCommandInternet.h"
 
 @implementation ESPCommandPlugPostStatusLocal
 

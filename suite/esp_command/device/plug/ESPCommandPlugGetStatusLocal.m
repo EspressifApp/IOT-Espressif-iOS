@@ -7,8 +7,8 @@
 //
 
 #import "ESPCommandPlugGetStatusLocal.h"
-#import "ESPConstantsCommandInternet.h"
 #import "ESPConstantsCommand.h"
+#import "ESPConstantsCommandPlug.h"
 #import "ESPBaseApiUtil.h"
 
 @implementation ESPCommandPlugGetStatusLocal
@@ -21,7 +21,7 @@
 -(ESPStatusPlug *) resolveResponseJson:(NSDictionary *)jsonResponse DevicePlug:(ESPDevicePlug *) plug
 {
     @try {
-        NSDictionary *jsonResp = [jsonResponse objectForKey:RESPONSE];
+        NSDictionary *jsonResp = [jsonResponse objectForKey:KEY_RESPONSE];
         int on = [[jsonResp objectForKey:STATUS]intValue];
         ESPStatusPlug *statusPlug = [[ESPStatusPlug alloc]init];
         statusPlug.espIsOn = on == 1;
